@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: indianred;
+}
+
+.mcq{
+    border: 2px;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: lightcoral;
+}
+
+.mcq p{
+    font-size: xx-large;
+}
+
+.option button{
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b1{
+    background-color: crimson;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.b2{
+    width: 600px;
+    background-color: lightgrey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
